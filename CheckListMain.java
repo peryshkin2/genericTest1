@@ -21,8 +21,8 @@ public class CheckListMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int counts = 0;
-		Integer[] threshold = {10, 15, 25};
-		Integer[] ar1 = {1,2, 24, 3, 9, 11, 12, 13, 11, 14, 15,20};
+		Integer[] threshold = {10, 15, 25, 26};
+		Integer[] ar1 = {1,2, 24, 3, 9, 11, 12, 13, 11, 14, 15,20, 33};
 		
 		IntSummaryStatistics stat = Stream.of(ar1).collect(IntSummaryStatistics::new, IntSummaryStatistics::accept, IntSummaryStatistics::combine);
 		System.out.println(stat);
