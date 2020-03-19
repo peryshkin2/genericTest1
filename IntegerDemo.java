@@ -15,8 +15,8 @@ public class IntegerDemo {
 		
 		try {
 			//int c = Math.addExact(a,b);
-			Exception c = null;
-			System.out.println(c);
+			Exception ce = null;
+			//System.out.println(c);
 		
 			LocalDateTime now = LocalDateTime.now(); // 1
 			System.out.println(now.toLocalTime());
@@ -32,11 +32,11 @@ public class IntegerDemo {
 			
 		
 			SimpleDateFormat form2 = new SimpleDateFormat("dd-MMM-yyyy");
-			System.out.println(form2.parseObject("02-03-2015"));
+			//System.out.println(form2.parseObject("02-03-2015"));
 		} catch (ArithmeticException ex) {
 			ex.printStackTrace();
-		} catch ( ParseException ex) {
-			ex.printStackTrace();
+//		} catch ( ParseException ex) {
+//			ex.printStackTrace();
 	}
 	}
 }
